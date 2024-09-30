@@ -5,6 +5,20 @@ const passOne = document.getElementById("p-one");
 const passTwo = document.getElementById("p-two");
 
 
+for (let i = 0; i < characters.length; i++) {
+  console.log()
+
+}
+
 function iClick() {
-  passOne.textContent = "NewPass"
+  let passWordNumber = 10;
+  let newPassWord1 = [];
+  let newPassWord2 = [];
+
+  for(let i = 0; i < passWordNumber; i++) {
+    newPassWord1.push(characters[Math.floor(Math.random() * characters.length)])
+    newPassWord2.push(characters[Math.floor(Math.random() * characters.length)])
+  }
+  passOne.innerText = newPassWord1.join("  ");
+  passTwo.innerText = newPassWord2.join("  ")
 }

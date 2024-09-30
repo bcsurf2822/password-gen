@@ -47,6 +47,9 @@ p {
   color: #10b981;
   background-color: #273549;
   border: 2px solid #273549;
+  border-radius: 10px;
   width: 211px;
+  height: 30px;
   text-align: center;
+  padding-top: 12px;
 }
