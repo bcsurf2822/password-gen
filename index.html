@@ -3,18 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Document</title>
   </head>
   <body>
     <div class="gen-pass">
       <h1>Generate a</h1>
-      <h1>random password</h1>
+      <h1 class="green-letters">random password</h1>
       <h3>Never feel unsafe again</h3>
     </div>
-    <button>GENERATE HERE</button>
+    <button onclick="iClick()"><strong>Generate Passwords</strong></button>
     <div class="passwords">
-      <p id="p-1"></p>
-      <p id="p-2"></p>
+      <p id="p-one">password</p>
+      <p id="p-two">password</p>
     </div>
   </body>
+  <script src="index.js"></script>
 </html>
