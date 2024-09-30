@@ -1,6 +1,6 @@
 # Random Password Generator Project
 
-This project demonstrates the use of for loops and array manipulation to create a simple random password generator. The user can click a button to generate two random passwords from an array of characters and symbols.
+This project was inspired by Scrimba and demonstrates the use of for loops and array manipulation to create a simple random password generator. The user can click a button to generate two random passwords from an array of characters and symbols.
 
 ## Key Features
 
